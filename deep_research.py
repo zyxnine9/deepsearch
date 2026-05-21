@@ -30,6 +30,7 @@ from utils import get_current_date, cast_content_to_reasoning_content, gen_metad
 ResultsSummary is using to store the result searched so far
 """
 
+print(123)
 
 class ResultsSummary(BaseModel):
     """
