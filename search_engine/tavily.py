@@ -17,7 +17,8 @@ from tavily import TavilyClient
 from .search_engine import SearchEngine, SearchResult
 
 import asyncio
-
+import sys
+print(sys)
 
 class TavilySearchEngine(SearchEngine, ABC):
 
